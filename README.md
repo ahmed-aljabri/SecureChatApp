@@ -1,7 +1,18 @@
-## JAVA Secure Local Chat App
+# JAVA Secure Local Chat App
+***
+---
 
-## To Run:
-##      1 - Run the server from the terminal: java ChatServer <port>
-##      2 - Run the client:                   java ChatClient <hostname> <port>
+==NOTE:==
+==ALTER CERTS PATH TO ENABLE TLS ENCRYPTION==
 
-## To terminate the chat type: "bye"
+### Usage:
+
+    // Run the Chat Server
+    java ChatServer <port>
+
+    // Run the Chat Client
+    java ChatClient <hostname> <port>
+    
+    // To terminate the app:
+    Type: bye OR Ctrl+C
+  
