@@ -24,8 +24,8 @@ public class ChatServer {
     public static final boolean DEBUG = false;
     public static int DEFAULT_PORT = 8282;
     public static int SERVER_PORT;
-    public static final String KEYSTORE_LOCATION = "C:/Keys2/ServerKeyStore.jks";
-    public static final String KEYSTORE_PASSWORD = "a1s2d3f4g5h6";
+    public static final String KEYSTORE_LOCATION = "C:/Keys2/ServerKeyStore.jks"; //Replace with your own server key path
+    public static final String KEYSTORE_PASSWORD = "a1s2d3f4g5h6"; //Replace with your set password
 
     public ChatServer(int portNumber) {
         this.SERVER_PORT= portNumber;

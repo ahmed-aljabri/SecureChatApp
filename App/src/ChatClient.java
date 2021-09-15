@@ -20,8 +20,8 @@ public class ChatClient {
     private int port;
 
     public static final boolean DEBUG = false;
-    public static final String TRUSTSTORE_LOCATION = "C:/CA2/ClientKeyStore.jks";
-    public static final String TRUSTSTORE_PASSWORD = "a1s2d3f4g5h6";
+    public static final String TRUSTSTORE_LOCATION = "C:/CA2/ClientKeyStore.jks"; //Replace with your own key path
+    public static final String TRUSTSTORE_PASSWORD = "a1s2d3f4g5h6"; //Replace with the pass you set
 
     /**
      * ChatClient Constructor
